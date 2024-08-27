@@ -74,6 +74,7 @@ socket.addEventListener("message", (event) => {
   } else if (message.type === "game_over") {
     showGameOver(message.winner);
   } else if (message.type === "invalid_move") {
+    
     alert("Invalid move! Please try again.");
   }
 });
